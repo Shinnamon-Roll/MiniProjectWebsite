@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+.blackNav {
+  width: auto;
+  height: 30px;
+  gap: 20px;
+  padding: 0 20% 0 20%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Ancizar Sans", sans-serif;
+}
+
+.blackNav .menu {
+  display: flex;
+  color: white;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+
+}
+.blackNav .contact {
+  text-align: right;
+  gap: 30px;
+  list-style: none;
+  display: flex;
+  color: aliceblue;
+}
+
+/* main menu */
+.mainMenu {
+  position: relative;
+  top: 0;
+  display: flex;
+  background-color: rgb(208, 255, 80);
+  width: 100%;
+  height: 5%;
+  z-index: 999;
+  transition: all 0.3s ease;
+  justify-content: space-between;
+}
+.mainMenu ul {
+  display: flex;
+  color: black;
+  padding: 0 20% 0 20%;
+  list-style: none;
+}
+main
+
+/* main Content */
+.mainContent {
+  height: 5000px;
+}
